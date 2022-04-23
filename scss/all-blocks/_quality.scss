@@ -1,0 +1,43 @@
+.quality {
+  padding: 84px 0;
+}
+
+.quality-container {
+  position: relative;
+  background-color: #2C343E;
+  padding-top: 88px;
+  padding-left: 85px;
+  padding-bottom: 176px;
+  border-radius: 10px;
+}
+
+.quality-left {
+  width: 540px;
+}
+
+.quality-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quality-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality-img {
+  position: absolute;
+  border-radius: 10px;
+  left: 750px;
+  top: -88px;
+}

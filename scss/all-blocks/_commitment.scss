@@ -1,0 +1,34 @@
+.commitment {
+  padding: 84px 0;
+}
+
+.commitment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commitment-right {
+  width: 540px;
+  margin-left: 125px;
+}
+
+.commitment-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.commitment-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

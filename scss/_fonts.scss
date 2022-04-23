@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Barlow';
+  src: url('../font/Barlow-SemiBold.woff2') format('woff2'),
+      url('../font/Barlow-SemiBold.woff') format('woff'),
+      url('../font/Barlow-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../font/Barlow-Bold.woff2') format('woff2'),
+      url('../font/Barlow-Bold.woff') format('woff'),
+      url('../font/Barlow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../font/Barlow-Regular.woff2') format('woff2'),
+      url('../font/Barlow-Regular.woff') format('woff'),
+      url('../font/Barlow-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../font/Fraunces-Black.woff2') format('woff2'),
+      url('../font/Fraunces-Black.woff') format('woff'),
+      url('../font/Fraunces-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

@@ -4,13 +4,27 @@
 
 .commitment-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  // background-image: url(../../image/commitment-img.jpg);
+  // background-repeat: no-repeat;
+  // background-size: 445px 520px;
+  // background-position: left 105px top 0;
+}
+
+.commitment__div {
+  max-width: 445px;
+  height: 520px;
+  width: 100%;
+  background-image: url(../image/commitment-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 445px 520px;
 }
 
 .commitment-right {
-  width: 540px;
-  margin-left: 125px;
+  max-width: 540px;
+  width: 100%;
+  margin-left: 10px;
 }
 
 .commitment-heading {
@@ -31,4 +45,22 @@
   color: #333D4B;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 560px) {
+  .commitment {
+    padding: 60px 0;
+  }
+
+  .commitment-container {
+    flex-direction: column;
+  }
+
+  .commitment-right {
+    margin-top: 48px;
+    margin-left: 0;
+    text-align: center;
+  }
+
 }

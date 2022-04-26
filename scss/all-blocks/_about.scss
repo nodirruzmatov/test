@@ -10,7 +10,7 @@
   background-size: cover;
 }
 
-.about-heading {
+.hero-heading {
   margin: 0;
   padding: 0;
   margin-bottom: 24px;
@@ -21,12 +21,42 @@
   color: #FEFCF7;
 }
 
-.about-desc {
+.hero-desc{
   margin: 0;
   padding: 0;
-  width: 445px;
+  max-width: 445px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding-bottom: 72px;
+  }
+
+  .about-container {
+    padding: 118px 54px;
+    background-position: left -87px top 0px ;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .about {
+    padding-bottom: 60px;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 111px 24px 87px 24px;
+  }
+
+  .hero-desc{
+    text-align: center;
+  }
+
 }

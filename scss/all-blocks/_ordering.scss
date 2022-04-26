@@ -98,6 +98,14 @@ input:checked + .ordring__form-custom {
   background-color: #FDD6BA;
 }
 
+.ordring__form-custom:hover .ordring__form-title{
+  color: #fff;
+}
+
+.ordring__form-custom:hover .ordring__form-desc {
+  color: #fff;
+}
+
 .ordring__form-title {
   margin: 0;
   padding: 0;

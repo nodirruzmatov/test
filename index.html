@@ -35,6 +35,8 @@
         </ul>
       </nav>
 
+       <button class="header__hamburger"></button>
+
     </div> 
   </header>
 
@@ -115,7 +117,7 @@
     </section>
 
     <!-- !  CHOOSING  -->
-    <section class="choosing none">
+    <section class="choosing">
       <div class="container choosing-container">
 
         <h2 class="choosing-heading">Why choose us?</h2>
@@ -125,21 +127,30 @@
 
           <li class="choosing-item">
             <img src="./image/coffee-bean.png" width="72" height="72" alt="coffee bean">
-            <h3 class="choosing-item-hesding">Best quality</h3>
-            <p class="choosing-item-desc">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
-          </li>
+            <div>
+              <h3 class="choosing-item-heading">Best quality</h3>
+              <p class="choosing-item-desc">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+          
+            </div>
+            </li>
 
           <li class="choosing-item">
             <img src="./image/Combined-Shape.png" width="72" height="72" alt="Exclusive benefits">
-            <h3 class="choosing-item-hesding">Exclusive benefits</h3>
-            <p class="choosing-item-desc">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
-          </li>
+            <div>
+              <h3 class="choosing-item-heading">Exclusive benefits</h3>
+              <p class="choosing-item-desc">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+          
+            </div>
+            </li>
 
           <li class="choosing-item">
             <img class="choosing-item-img" src="./image/free-shipping.png" width="72" height="50" alt="free shipping logo">
-            <h3 class="choosing-item-hesding">Free shipping</h3>
-            <p class="choosing-item-desc">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
-          </li>
+            <div>
+              <h3 class="choosing-item-heading">Free shipping</h3>
+              <p class="choosing-item-desc">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+          
+            </div>
+            </li>
 
         
         </ul>
@@ -149,19 +160,23 @@
 
 
     <!-- !  WORKING  -->
-    <section class="working none">
+    <section class="working">
       <div class="container working-container">
 
         <h2 class="working-heading">How it works</h2>
-
-        <img src="./image/working-img.png" width="791" height="31" alt="decorative painting">
+        
+        <img class="working__img-tab" src="./image/working-tab-img.png" width="497" height="31" alt="decorative painting">
+        
+        <img class="working__img" src="./image/working-img.png" width="791" height="31" alt="decorative painting">
+      
+        
 
         <ol class="working-list">
 
           <li class="working-item">
 
             <strong class="working-item-number">01</strong>
-            <h3 class="working-item-heading">Pick your <br> coffee</h3>
+            <h3 class="working-item-heading">Pick your  coffee</h3>
             <p class="working-item-desc">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
             
           </li>
@@ -196,7 +211,7 @@
 
 
   <!-- !  FOOTER   -->
-  <footer class="footer none">
+  <footer class="footer">
     <div class="container footer-container">
 
       <a class="footer-logo-link" href="#">
@@ -240,6 +255,6 @@
     </div>
   </footer>
 
-
+  <script src="./js/app.js"></script>
 </body>
 </html>
